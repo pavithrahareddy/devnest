@@ -1,0 +1,100 @@
+h1,
+h2,
+h3,
+h4,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3,
+h4 {
+  color: #022e57;
+}
+
+h1,
+.info {
+  color: #fff;
+}
+
+body {
+  position: relative;
+  background-color: rgb(76, 78, 78);
+}
+
+p {
+  margin: 0px;
+}
+
+.social {
+  width: 42%;
+  padding: 1%;
+  margin: auto;
+  top: 0px;
+  background-color: #ff96ad;
+}
+
+.header {
+  margin: auto;
+  padding: 2%;
+  width: 40%;
+  background-color: #005a8d;
+  position: relative;
+}
+
+.details {
+  align-items: center;
+  position: absolute;
+  right: 15px;
+  top: 5px;
+  padding: 1%;
+  height: 100%;
+}
+
+.content {
+  padding: 2%;
+  width: 40%;
+  margin: auto;
+  background-color: #fff5fd;
+  position: relative;
+}
+.con-head,
+.work {
+  padding: 2% 2% 2% 0%;
+}
+
+.skills {
+  position: absolute;
+  right: 230px;
+  bottom: 30px;
+}
+
+.hobbies {
+  position: absolute;
+  right: 60px;
+  bottom: 30px;
+}
+
+.projects {
+  position: absolute;
+  right: 50px;
+  top: 30px;
+}
+.social {
+  position: relative;
+}
+
+.github {
+  position: absolute;
+  left: 100px;
+  top: 5px;
+  bottom: 15px;
+}
+.linkedin {
+  position: absolute;
+  right: 100px;
+  top: 5px;
+  bottom: 15px;
+}
