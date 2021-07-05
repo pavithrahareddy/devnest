@@ -1,0 +1,38 @@
+.red {
+  height: 500px;
+  width: 500px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.white {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.longhand {
+  height: 43%;
+  top: 40%;
+  width: 2%;
+  background-color: black;
+  position: absolute;
+  left: 66%;
+  transform: rotate(130deg);
+}
+
+.shorthand {
+  height: 30%;
+  top: 46%;
+  width: 2%;
+  background-color: black;
+  position: absolute;
+  left: 43%;
+  transform: rotate(30deg);
+}
