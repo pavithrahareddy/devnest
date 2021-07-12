@@ -24,6 +24,15 @@ body {
   background-color: rgb(76, 78, 78);
 }
 
+.divider{
+  width: 0.5%;
+  height: 90%;
+  background-color: #005a8d;
+  position: absolute;
+  top: 5%;
+  left: 45%;
+}
+
 p {
   margin: 0px;
 }
