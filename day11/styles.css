@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(0, 5, 5, 0.945);
+  background-size: 100% 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Ubuntu Condensed", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  color: rgb(252, 249, 251);
+  font-size: 20px;
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+.animate {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0.123);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(250, 249, 249, 0.1);
+  width: 600px;
+  max-width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2 {
+  padding: 1rem;
+  text-align: center;
+  margin: 0;
+}
+
+.quiz-header {
+  padding: 4rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+ul li {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+ul li label {
+  cursor: pointer;
+}
+
+button,
+button::after {
+  background-color: #fd044ead;
+  color: #fff;
+  border: none;
+  display: block;
+  font-family: inherit;
+  font-size: 1.3rem;
+  width: 100%;
+  padding: 1.3rem;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  transition: 0.2s;
+  font-size: 25px;
+  border-radius: 12px;
+}
+
+button:hover,
+button:hover::after {
+  background: #a8041a;
+  color: #eaf2fa;
+  box-shadow: 0 0 5px #f8f8f8, 0 0 5px #fafbfc, 0 0 5px #fafbfc;
+}
+
+.subtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-weight: bolder;
+}
+
+label {
+  margin-right: 15px;
+  line-height: 32px;
+}
+
+input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+input:checked {
+  border: 6px solid rgb(247, 0, 95);
+}
